@@ -1,4 +1,4 @@
-# Comparing two existing testing criteria for DNN models.
+# Comparing Testing Adeqacy Criteria for DNN Models.
 
 To compare two testing adequacy metrics, we used [Surprise Adequacy](https://github.com/coinse/sadl) and [Deep Mutation](https://github.com/dgl-prc/m_testing_adversatial_sample) as the two metrics, called Likelihood-based Surprise Coverage(LSC) and Label Change Rate(LCR).
 
