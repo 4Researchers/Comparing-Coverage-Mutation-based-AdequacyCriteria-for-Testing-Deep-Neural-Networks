@@ -2,7 +2,7 @@
 
 To compare two testing adequacy metrics, we used [Surprise Adequacy](https://github.com/coinse/sadl) and [Deep Mutation](https://github.com/dgl-prc/m_testing_adversatial_sample) as the two metrics, called Likelihood-based Surprise Coverage(LSC) and Label Change Rate(LCR).
 
-In the following, procedure of each tool and nessesary changes is described:
+Note that we did some changes on the source codes to make sure we can implement it with our system. In the following, procedure of each tool and nessesary changes is described:
 
 
 ## Testing adversarial Procedure:
