@@ -1,4 +1,4 @@
-# This tool is for comparing two existing testing criteria for DNN models.
+# Comparing two existing testing criteria for DNN models.
 
 To compare two testing adequacy metrics, we used [Surprise Adequacy](https://github.com/coinse/sadl) and [Deep Mutation](https://github.com/dgl-prc/m_testing_adversatial_sample) as the two metrics, called Likelihood-based Surprise Coverage(LSC) and Label Change Rate(LCR).
 
@@ -20,11 +20,11 @@ We used [Surprise Adequacy](https://github.com/coinse/sadl) code to compute surp
 
 Run `train_lenet5_model.ipynb`, `train_model.py`, `train_googlenet.ipynb` to train and save the deep learning model.
 
-Run `img_to_npy.ipynb` to transfer the data to array format.
+Run `img_to_npy.ipynb` to transfer the data to numpy array format.
 
-Run `sa_mnist_conv5.ipynb` to get the results of 10 datasets.
+Run `sa_mnist_conv5.ipynb` to calculate the likelihood-based surprise coverage of 10 datasets.
 
-Run `final_result.py` to compute the increment of surprise coverage to the original data.
+Run `final_result.py` to compute the increment of likelihood-based surprise coverage(LSC) to the original data.
 
 
 
