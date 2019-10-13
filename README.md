@@ -14,6 +14,9 @@ Run `autorun.sh` to get the label change rate of the 10 datasets
 
 Run `final_result.py` to get the result of increment of original data for the label change rate(LCR) metric.
 
+#### Results:
+![GitHub Logo](/Results/logo.png)
+
 
 ## Surprise Coverage Procedure:
 We used [Surprise Adequacy](https://github.com/coinse/sadl) code to compute surprise coverage, which is implemented in `Python2.7`, but we did some chanes to implement it in `Python3.7`.
