@@ -94,7 +94,7 @@ def train(args):
     model.fit(
         x_train,
         y_train,
-        epochs=50,
+        epochs=50, #TODO: reach a model with 15 - 35 - 50 epoch
         batch_size=128,
         shuffle=True,
         verbose=1,

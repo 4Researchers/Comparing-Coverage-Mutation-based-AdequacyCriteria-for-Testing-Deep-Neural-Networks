@@ -1,0 +1,7 @@
+tmp/*
+result/*
+adv/*
+model/*
+*.pdf
+env/*
+__pycache__/

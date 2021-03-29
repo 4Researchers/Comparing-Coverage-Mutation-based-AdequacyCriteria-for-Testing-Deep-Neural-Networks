@@ -142,7 +142,6 @@ def _get_train_target_ats(model, x_train, x_target, target_name, layer_names, ar
         target_ats (list): ats of target set.
         target_pred (list): pred of target set.
     """
-
     saved_train_path = _get_saved_path(args.save_path, args.d, "train", layer_names)
     if os.path.exists(saved_train_path[0]):
         print(infog("Found saved {} ATs, skip serving".format("train")))
@@ -180,7 +179,7 @@ def _get_train_target_ats(model, x_train, x_target, target_name, layer_names, ar
             save_path=saved_target_path,
         )
         print(infog(target_name + " ATs is saved at " + saved_target_path[0]))
-
+    
     return train_ats, train_pred, target_ats, target_pred
 
 
@@ -200,6 +199,7 @@ def fetch_dsa(model, x_train, x_target, target_name, layer_names, args):
     assert args.is_classification == True
 
     prefix = info("[" + target_name + "] ")
+    
     train_ats, train_pred, target_ats, target_pred = _get_train_target_ats(
         model, x_train, x_target, target_name, layer_names, args
     )
