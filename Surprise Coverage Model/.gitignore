@@ -1,7 +1,7 @@
 tmp/*
 result/*
 adv/*
-model/*
+# model/*
 *.pdf
 env/*
 __pycache__/
